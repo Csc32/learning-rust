@@ -1,2 +1,1 @@
-# MoureDev-Challenges
-This is a repo that contains the resolutions of the mouredev challenges
+# This is a repo for practice rust
