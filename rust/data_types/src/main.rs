@@ -15,7 +15,14 @@ fn main() {
     integer_type(num);
 }
 
-fn integer_type(num: u8) -> u8 {
-    println!("Your num is {num}");
+fn integer_type(num: u8) -> String {
+    let num: String = num.to_string();
+    println!("The number is {num}");
     return num;
+}
+
+fn floating_points() {
+    let x = 2.0; // f64
+
+    let y: f32 = 3.0; // f32
 }
