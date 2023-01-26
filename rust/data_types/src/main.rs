@@ -13,6 +13,7 @@ fn main() {
     };
 
     integer_type(num);
+    floating_points();
 }
 
 fn integer_type(num: u8) -> String {
@@ -25,4 +26,7 @@ fn floating_points() {
     let x = 2.0; // f64
 
     let y: f32 = 3.0; // f32
+
+    println!("The value of x = {}", x.to_string());
+    println!("The value of y = {}", y.to_string())
 }

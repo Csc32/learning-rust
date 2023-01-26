@@ -12,3 +12,15 @@ To explicitly handle the possibility of overflow, you can use these families of 
 - Return the `None` value if there is overflow with the `checked_*` methods
 - Return the value and a Boolean indicating wheter there was overflow with the `overflowing_*` methods
 - Saturate at the value's minimum or maximum values with the `saturating_*` methods.
+
+##  Floating-points types
+
+Are decimal numbers. Rust Floating-points types are `f32` and `f64`, which are 32 bits and 64bits in size, respectively. 
+
+The default type is `f64` because on modern CPU's, it's roughly the same speed as `f32` but is capable of more precision. All Floating-points types are signed  
+
+Floating-points numbers are represented according to the IEEE-754 standard. The `f32` type is a single-precision float, and `f64` has double precision
+
+## Numeric operations
+
+Rust supports basic mathematical operations you'd expect for all the number types: addition, subtraction, multiplication, divisin, and remainder.  
